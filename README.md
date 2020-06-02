@@ -7,6 +7,12 @@ The data used here collected by NASA's Program EO-1 which was launched on Novemb
 spectrum covering from 357 - 2576 nm. The Level 1 Radiometric product
 has a total of 242 bands but only 198 bands are calibrated. 
 
+Two tiles were used for two separate analysis.
+
+Tiles:
+1. EO1H1430452010208110Kt_1GST
+2. EO1H1480472016328110PZ_1GST
+
 ## Libraries Used
 
 * PIL
@@ -22,7 +28,7 @@ The TIF Images were initially imported into an array. Principle Component Anlays
 ## Results
 
 
-The unsupervised segmentation (K-Means) was measured using the Davies-Bouldin score and it came out to be 0.5539
+The unsupervised segmentation (K-Means) was measured using the Davies-Bouldin score and it came out to be 0.507 for Tile-1 and 0.4347 for Tile-2
 
 
 
