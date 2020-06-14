@@ -23,7 +23,7 @@ Tiles:
 
 ## Methodology
 
-The TIF Images were initially imported into an array. Principle Component Anlaysis was used for dimensionality reduction. After that, K-Means clustering was used as the unsupervised classification algorithm which segmented the four most important principle components. Individual bands from the first four principle components were merged to obtain the final image.
+The TIF Images were initially imported into an array through a function from the TIFFILE library. Principle Component Anlaysis was used for dimensionality reduction after which, the K-Means clustering algorithm was used as the unsupervised classification algorithm which segmented the four most important principle components. Individual bands from the first four principle components were merged to obtain the final image.
 
 ## Results
 
