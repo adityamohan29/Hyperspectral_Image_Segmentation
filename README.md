@@ -20,15 +20,16 @@ Tiles:
 * numpy
 * matplotlib
 * skicit-learn
+* rasterio
 
 ## Methodology
 
-The TIF Images were initially imported into an array through a function from the TIFFILE library. Principle Component Anlaysis was used for dimensionality reduction after which, the K-Means clustering algorithm was used as the unsupervised classification algorithm which segmented the four most important principle components. Individual bands from the first four principle components were merged to obtain the final image.
+The TIF Images were initially imported into an array through a function from the TIFFILE library. Principle Component Anlaysis was used for dimensionality reduction after which, the K-Means clustering algorithm was used as the unsupervised classification algorithm which segmented the three most important principle components. Individual bands from the first three principle components were merged to obtain the final false color image.
 
 ## Results
 
 
-The unsupervised segmentation (K-Means) was measured using the Davies-Bouldin score and it came out to be 0.507 for Tile-1 and 0.4347 for Tile-2
+The unsupervised segmentation (K-Means) was measured using the Davies-Bouldin score and it came out to be 0.460 for Tile-1 and 0.5852 for Tile-2
 
 
 
