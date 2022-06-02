@@ -1,6 +1,7 @@
-# Hyperspectral_Image_Segmentation
+# Hyperspectral Image Segmentation
 A notebook of hyperspectral image segmentation as part of the "Pixxel Open Data Challenge" . 
 
+Note: Please view the .ipynb notebooks to visualize the results obtained.
 
 ## Data
 The data used here collected by NASA's Program EO-1 which was launched on November 2000, to capture high resolution images of the earth surface using hyperion hyper-spectral imager. There are 220 unique spectral channels collected with a complete
