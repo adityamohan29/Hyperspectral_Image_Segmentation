@@ -25,7 +25,7 @@ Tiles:
 
 ## Methodology
 
-The TIF Images were initially imported into an array through a function from the TIFFILE library. Principle Component Anlaysis was used for dimensionality reduction after which, the K-Means clustering algorithm was used as the unsupervised classification algorithm which segmented the three most important principle components. Individual bands from the first three principle components were merged to obtain the final false color image.
+The TIF Images were initially imported into an array through a function from the TIFFILE library. Principal Component Anlaysis was used for dimensionality reduction after which, the K-Means clustering algorithm was used as the unsupervised classification algorithm which segmented the three most important principal components. Individual bands from the first three principal components were merged to obtain the final false color image.
 
 ## Results
 
